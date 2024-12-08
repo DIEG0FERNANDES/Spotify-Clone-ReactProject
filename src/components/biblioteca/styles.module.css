@@ -19,6 +19,19 @@
   height: 160px;
   overflow-y: auto;
 }
+.container::-webkit-scrollbar {
+  width: 10px;
+}
+.container::-webkit-scrollbar-track {
+  background: transparent;
+}
+.container::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .playlist {
   background-color: #222222;
   border-radius: 5px;
