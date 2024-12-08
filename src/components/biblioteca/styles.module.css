@@ -1,0 +1,38 @@
+.conteudoEsquerda {
+  background-color: #111111;
+  width: 380px;
+  height: 410px;
+  margin: 2.5px;
+  border-radius: 8px;
+  display: table-column;
+  padding: 6px;
+  font-family: "light";
+}
+
+.headerBiblioteca {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  margin-bottom: 40px;
+}
+.container {
+  height: 160px;
+  overflow-y: auto;
+}
+.playlist {
+  background-color: #222222;
+  border-radius: 5px;
+  display: grid;
+  height: 110px;
+  padding: 5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.podcast {
+  background-color: #222222;
+  height: 110px;
+}
+
+.Footer {
+  height: 190px;
+}

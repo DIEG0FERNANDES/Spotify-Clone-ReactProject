@@ -1,0 +1,22 @@
+.conteudoHome {
+  display: flex;
+  color: #fff;
+  margin: 6px;
+  justify-content: center;
+  align-items: center;
+}
+.conteudoDireita {
+  background-color: #222222;
+  width: 860px;
+  height: 440px;
+  margin: 2.5px;
+  border-radius: 8px;
+}
+.footer {
+  background-color: #ff00aa;
+  width: 1260px;
+  height: 60px;
+  margin: 4px;
+  align-items: center;
+  justify-content: center;
+}
