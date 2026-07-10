@@ -1,3 +1,4 @@
+import { Player } from "../../components";
 import Biblioteca from "../../components/biblioteca";
 import GlobalHeader from "../../components/header";
 import styles from "./styles.module.css";
@@ -10,7 +11,9 @@ const Home = () => {
         <Biblioteca />
         <div className={styles.conteudoDireita}>Conteudo Direita</div>
       </div>
-      <div className={styles.footer}>footer</div>
+      <div className={styles.footer}>
+        <Player />
+      </div>
     </>
   );
 };
